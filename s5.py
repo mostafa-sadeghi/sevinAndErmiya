@@ -38,6 +38,34 @@
 # میانگین اعداد را محاسبه نماید
 # میانگین یعنی جمع عددعا تقسیم بر تعدادشون
 
+n1 = int(input('enter a number: '))
+n2 = int(input('enter a number: '))
+n3 = int(input('enter a number: '))
+
+
+print("average is:",(n1+n2+n3)/3)
+
+# maximum = n1
+# if n2 > maximum:
+#     maximum = n2
+# if n3 > maximum:
+#     maximum = n3
+
+# print("maximum number is:",maximum)
+
+
+# if n1 > n2 and n1 > n3:
+#     print("The biggest is:", n1)
+
+# elif n2 > n1 and n2 > n3:
+#     print("the biggest is :",n2)
+
+# elif n3 > n1 and n3 > n2:
+#     print("the biggest is:", n3)
+
+
+
+
 
 # x = 12
 # y = 14
@@ -57,20 +85,20 @@
 # if not a:
 #     print("a is false")
 
-a = True
-b = False
+# a = True
+# b = False
 
-if a and b:
-    print("one")
+# if a and b:
+#     print("one")
 
-if a or b:
-    print("three")
+# if a or b:
+#     print("three")
 
 
-a = True
-b = True
-if a and b:
-    print("two")
+# a = True
+# b = True
+# if a and b:
+#     print("two")
 
-if a or b:
-    print("another")
+# if a or b:
+#     print("another")
